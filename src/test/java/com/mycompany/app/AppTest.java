@@ -23,4 +23,9 @@ public class AppTest
     public void testFactorial() {
         assertEquals(1, App.factorial(1));
     }
+
+    @Test
+    public void testFactorialOf3() {
+      assertEquals(6, App.factorial(3));
+    }
 }
